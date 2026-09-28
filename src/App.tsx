@@ -204,7 +204,7 @@ export default function App() {
             <CategoryBento onSelectCategory={handleCategorySelect} />
 
             {/* 7. Spline 3D Section: "THE WORLD OF AURE" */}
-            <SplineScene />
+            <SplineScene onExploreCollection={() => handleNavigate('shop')} />
 
             {/* 8. Editorial Container Scroll Animation */}
             <EditorialContainerScroll onDiscoverStory={() => handleNavigate('about')} />
